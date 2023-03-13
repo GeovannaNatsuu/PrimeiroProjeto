@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <ul>
+        <li><a href="glossary.html">Glossário</a></li>
+        <li><a href="contato.html">Formulário de Contato</a></li>
+        <li><a href="shopping-list.html">Lista de Compras</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="blog-post.html">Blog Post</a></li>
+     </ul>
+</head>
+<body>
+    <fieldset> 
+        <legend>Entre em contato</legend>
+        <label><b>Assunto:</b></a>
+            <select name="assunto">
+                <option value="sup">Suporte</option>
+                <option value="fb">Feedback</option>
+            </select>
+            <form action="/pagina-processa-dados-do-form" method="post">
+                <br>
+                <div>
+                    <label for="nome"><b>Nome Completo:</b></label>
+                    <br>
+                    <input type="text" id="nome" />
+                    </form>
+                </div>
+                <form>
+                    <br>
+                    <div>
+                        <label for="mail"><b>Email:</b></label>
+                        <br>
+                        <input type="email" id="mail" />
+                        </form>
+                    </div>
+                    <br>
+                    <div>
+                        <form>
+                            <label><b>Mensagem:</b></label>
+                            <br>
+                            <textarea placeholder="Digite sua mensagem" minlength=15 maxlength=255 rows=8 cols=25></textarea>
+                    </div>
+                    <br>
+                    <form>
+                        <div>
+                          <input type = "checkbox" id = "MensagensEmail" name = "Mensagens" value = "Email">
+                          <label for = "MensagensEmail"> Aceito receber novidades por e-mail </label>
+                        </div>
+                        <br>
+                        <div>
+                          <button type = "submit"> Enviar </button>
+                        </div>
+                      </form>
+                    </form>
+    </fieldset>
+    
+
+</body>
+</html>
